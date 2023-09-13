@@ -8,7 +8,7 @@ function recentPosts(e) {
                 }
             "media$thumbnail" in r[l] ? u = r[l].media$thumbnail.url.replace(/.*?:\/\//g, "//").replace(/\/s[0-9]+\-c/g, "/s90") : u = "https://1.bp.blogspot.com/-ygPrOtLU4Ew/YU9azMlDomI/AAAAAAAARyM/YTzRcc50FuYRJlEO0XDk74p6M4FOAb6ZwCLcBGAsYHQ/s1600/world-freeiptv-life-logo.webp";
             var t = r[l].title.$t;
-            n += '<li class="most" id="most"><img class="post-thumb" src="' + u + '" alt="' + t + '"><h2 class="title_post"><a  class="title_post_anch"href="' + s + '" title="' + t + '">' + t + "</a></h2></li><br/>"
+            n += '<li class="most" id="most"><img class="post-thumb" src="' + u + '" alt="' + t + '"><h2 class="title_post"><a  class="text-reset title_post_anch"href="' + s + '" title="' + t + '">' + t + "</a></h2></li><br/>"
         }
         a.innerHTML = n
     }
